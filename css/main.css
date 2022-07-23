@@ -1,0 +1,20 @@
+body {
+  background-color: #fff;
+}
+
+body p {
+  color: green;
+}
+
+body h3 {
+  width: 100%;
+}
+
+body div h3 {
+  width: 100%;
+}
+
+body div p {
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */

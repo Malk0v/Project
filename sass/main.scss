@@ -1,0 +1,22 @@
+$color: green;
+$main-width:100%;
+
+
+body{
+    background-color: #fff;
+    p{
+        color: $color;
+    }
+
+    h3{
+        width: 100%;
+    }
+    div{
+        h3{
+            width: $main-width;;
+        }
+        p{
+            padding: 10px;
+        }
+    }
+}
