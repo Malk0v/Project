@@ -1,0 +1,145 @@
+.footer {
+    margin: auto;
+    background-color: $backgraund-color;
+}
+
+.footer-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: auto;
+    padding: 10px;
+}
+
+.foot-aut {
+    list-style-type: none;
+    font-style: normal;
+
+    color: $opacity-white;
+}
+
+.foot-aut:hover,
+.nav-aut,
+.item:focus {
+    color: $akcent-color;
+
+    border-radius: 30px;
+}
+
+/* footer logo */
+
+.foot-logo {
+    margin: 30px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.foot-item a {
+    display: inline-flex;
+    padding: 5px;
+    margin: 2px;
+}
+
+.maps {
+    color: $white-color;
+    font-style: normal;
+}
+
+.maps:hover {
+    color: $akcent-color;
+}
+
+.footer-p {
+    padding: 10px 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $white-color;
+}
+
+.footer-social {
+    margin: auto;
+}
+
+.wrapper-send {
+    margin: auto;
+
+
+p {
+    margin: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $white-color;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+}
+
+input {
+    display: block;
+    width: 350px;
+    padding: 10px 10px;
+    margin-right: 10px;
+
+    background-color: $backgraund-color;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+
+    color: $white-color;
+    background-color: $akcent-fon;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    transition: all 0.7s ease 0s;
+}
+
+button:hover {
+    background-color: $backgraund-color;
+    color: $akcent-color;
+
+    transition: all 0.7s ease 0s;
+}}
+
+
+.svg-send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 29px;
+    height: 29px;
+
+    fill: currentColor;
+
+    transition: all 0.7s ease 0s;
+}
