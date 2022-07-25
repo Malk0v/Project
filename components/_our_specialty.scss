@@ -1,0 +1,44 @@
+.why {
+    text-align: center;
+    margin: 40px 0;
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+
+.why-item {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.why-img {
+    position: relative;
+    width: 370px;
+    margin: 10px;
+}
+
+.why-p {
+    position: absolute;
+    width: 100%;
+    padding: 30px 0;
+    bottom: 3px;
+       
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    background-image: linear-gradient(to right,
+        rgba(40, 33, 34, 0.726),
+        rgba(60, 5, 90, 0.538));
+    color: whitesmoke;
+}
