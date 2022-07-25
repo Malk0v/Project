@@ -1,0 +1,97 @@
+.team {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    background-color: $milk-color;
+
+    p {
+        margin-top: 10px;
+        margin-bottom: 16px;
+        color: $grey-color;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    h3 {
+        margin-top: 30px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+.team-h2 {
+    padding: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width: 210px; */
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* .why-item:nth-child(3n) {
+    margin-bottom: 0;
+} */
+
+
+.team-item>li {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* clients */
+
+.clients {
+    margin: 20px 10% 0;
+    padding-bottom: 50px;
+    text-align: center;
+
+h2 {
+        margin: 20px;
+    }
+}
+
+
+.names {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 5%;
+    margin: 0 10px;
+}
+
+.clients-svg {
+    padding: 0;
+    width: 170px;
+    height: 92px;
+    outline: 2px solid $milk-color;
+    fill: #afb1b8;
+    border-radius: 5px;
+}
+
+.clients-svg:hover {
+    transition: all 0.7s ease 0s;
+    fill: $akcent-color;
+    outline: 2px solid $akcent-color;
+}
