@@ -1,0 +1,29 @@
+.social-link {
+    padding: 0 25px;
+    justify-content: space-around;
+    display: flex;
+    margin: 5px;
+}
+
+.a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+
+.social-svg {
+    transition: all 0.7s ease 0s;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    fill: #afb1b8;
+}
+
+.social-svg:hover {
+    transform: translate(5px, -1px);
+    fill: #fff;
+    background-color: #188CE8;
+    border-radius: 50%;
+}
