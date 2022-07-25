@@ -1,0 +1,35 @@
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    margin: 94px auto 50px;
+}
+
+.nav-btn button {
+    text-align: center;
+    height: 38px;
+    padding: 6px 22px;
+    margin: 10px;
+    border-radius: 7px;
+    border: 1px solid $grey-color;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    background-color: $milk-color;
+    color: $black-color;
+
+    transition: all 0.7s ease 0s;
+}
+
+.nav-btn
+ button:hover,
+ button:focus
+{
+    color: $milk-color;
+    background-color: $akcent-fon;
+    cursor: pointer;
+
+    transition: all 0.7s ease 0s;
+}
