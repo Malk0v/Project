@@ -1,22 +1,16 @@
-$color: green;
-$main-width:100%;
+//@import '../components/_all';
+@import '../utils/variables';
+@import '../base/normalize';
+@import '../components/_visual-hidden';
+
+@import '../components/header';
+@import '../components/main_hero';
+@import '../components/main_power';
+@import '../components/our_specialty';
+@import '../components/team';
+@import '../components/social_link';
+@import '../components/footer';
 
 
-body{
-    background-color: #fff;
-    p{
-        color: $color;
-    }
-
-    h3{
-        width: 100%;
-    }
-    div{
-        h3{
-            width: $main-width;;
-        }
-        p{
-            padding: 10px;
-        }
-    }
-}
+@import '../components/_modalka';
+@import '../components/_form';
