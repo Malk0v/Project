@@ -1,0 +1,47 @@
+.power {
+    max-width: 1170px;
+    margin: auto;
+    margin-top: 50px;
+
+    h3 {
+        margin-top: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+    }
+    
+    p {
+        margin-top: 10px;
+        color: $grey-color;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+    }
+}
+
+.power-ul {
+    display: flex;
+    padding: 20px 4%;
+    justify-content: space-between;
+}
+
+.li-power {
+    width: 23%;
+}
+
+/* SVG */
+
+.power-wrapper {
+    padding: 10px 33%;
+
+    background-color: $milk-color;
+}
+
+.power-svg {
+    width: 70px;
+    height: 70px;
+}
