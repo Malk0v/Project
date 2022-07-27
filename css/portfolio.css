@@ -718,6 +718,10 @@ button:focus {
   background-color: #2F303A;
 }
 
+.wrapper-send input:hover {
+  border: 1px solid #2196F3;
+}
+
 .wrapper-send button {
   display: -webkit-box;
   display: -ms-flexbox;
