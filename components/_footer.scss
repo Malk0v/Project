@@ -102,6 +102,10 @@ input {
     background-color: $backgraund-color;
 }
 
+input:hover{
+    border: 1px solid $akcent-color;
+}
+
 button {
     display: flex;
     align-items: center;
