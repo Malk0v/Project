@@ -59,7 +59,7 @@
     width: 13px;
     height: 13px;
 
-    background-image: url(../images/happy2.svg);
+    background-image: url(../../images/happy2.svg);
     background-size: contain;
     transform: translateY(0px);
     transition: transform 600ms cubic-bezier(.59, -1.47, .38, 2.03);
@@ -92,7 +92,7 @@
     top: 50%;
     left: 9px;
     
-    background-image: url(../images/sad.svg);
+    background-image: url(../../images/sad.svg);
     background-size: contain;
     
     transform: translateY(calc(-50%));
