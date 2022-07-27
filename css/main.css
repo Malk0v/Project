@@ -489,8 +489,8 @@ body {
   max-width: 1600px;
   height: 600px;
   margin: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(160, 115, 214, 0.433)), to(rgba(8, 1, 12, 0.341))), url(../images/hero.jpg);
-  background-image: linear-gradient(to right, rgba(160, 115, 214, 0.433), rgba(8, 1, 12, 0.341)), url(../images/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(160, 115, 214, 0.433)), to(rgba(8, 1, 12, 0.341))), url(../../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(160, 115, 214, 0.433), rgba(8, 1, 12, 0.341)), url(../../images/hero.jpg);
   background-color: #000000;
   background-size: cover;
   background-position: center;
@@ -596,6 +596,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   max-width: 1170px;
   margin: auto;
 }
@@ -868,6 +870,10 @@ body {
   background-color: #2F303A;
 }
 
+.wrapper-send input:hover {
+  border: 1px solid #2196F3;
+}
+
 .wrapper-send button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -987,7 +993,7 @@ body {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-image: url(../images/happy2.svg);
+  background-image: url(../../images/happy2.svg);
   background-size: contain;
   -webkit-transform: translateY(0px);
           transform: translateY(0px);
@@ -1030,7 +1036,7 @@ body {
   height: 13px;
   top: 50%;
   left: 9px;
-  background-image: url(../images/sad.svg);
+  background-image: url(../../images/sad.svg);
   background-size: contain;
   -webkit-transform: translateY(calc(-50%));
           transform: translateY(calc(-50%));
@@ -1176,7 +1182,7 @@ textarea {
 
 .checbox:checked + .icon {
   border-color: transparent;
-  background-image: url(../images/icon_check.svg);
+  background-image: url(../../images/icon_check.svg);
   background-color: #188CE8;
   background-size: contain;
   background-origin: border-box;
@@ -1190,6 +1196,13 @@ textarea {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   background-color: #2196F3;
+}
+
+.modal-button a {
   color: #ffffff;
+}
+
+.modal-button:hover {
+  background-color: #188CE8;
 }
 /*# sourceMappingURL=main.css.map */
