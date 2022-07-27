@@ -59,39 +59,3 @@
     margin: 5px;
     padding: 5px;
 }
-
-/* clients */
-
-.clients {
-    margin: 20px 10% 0;
-    padding-bottom: 50px;
-    text-align: center;
-
-h2 {
-        margin: 20px;
-    }
-}
-
-
-.names {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0 5%;
-    margin: 0 10px;
-}
-
-.clients-svg {
-    padding: 0;
-    width: 170px;
-    height: 92px;
-    outline: 2px solid $milk-color;
-    fill: #afb1b8;
-    border-radius: 5px;
-}
-
-.clients-svg:hover {
-    transition: all 0.7s ease 0s;
-    fill: $akcent-color;
-    outline: 2px solid $akcent-color;
-}
