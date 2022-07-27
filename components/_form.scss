@@ -117,7 +117,7 @@ textarea {
 
 .checbox:checked+.icon {
     border-color: transparent;
-    background-image: url(../images/icon_check.svg);
+    background-image: url(../../images/icon_check.svg);
     background-color: $akcent-fon;
     background-size: contain;
     background-origin: border-box;
@@ -130,5 +130,12 @@ textarea {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     background-color: $akcent-color;
+
+    a{
     color: $white-color;
+    }
+
+    &:hover{
+        background-color: $akcent-fon;
+    }
 }
