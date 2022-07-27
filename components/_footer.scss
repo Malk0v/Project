@@ -72,9 +72,8 @@
 .wrapper-send {
     margin: auto;
 
-
 p {
-    margin: 20px;
+    margin: 10px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -90,7 +89,9 @@ p {
 form {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 15px 10px;
+    margin: 5px 0;
 }
 
 input {
@@ -111,6 +112,7 @@ button {
     align-items: center;
     justify-content: center;
     width: 150px;
+    margin: 5px 0;
     border-radius: 4px;
 
     font-family: 'Roboto';
