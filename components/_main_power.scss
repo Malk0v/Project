@@ -14,7 +14,7 @@
     }
     
     p {
-        margin-top: 10px;
+        margin: 10px 0;
         color: $grey-color;
         font-weight: 400;
         font-size: 14px;
@@ -25,19 +25,19 @@
 
 .power-ul {
     display: flex;
-    padding: 20px 4%;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 1%;
+    justify-content: space-around;
 }
 
 .li-power {
-    width: 23%;
+    width: 250px;
 }
 
 /* SVG */
 
 .power-wrapper {
     padding: 10px 33%;
-
     background-color: $milk-color;
 }
 
