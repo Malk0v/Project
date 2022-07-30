@@ -6,13 +6,26 @@
 .footer-2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1170px;
+    justify-content: center;
+    max-width: 480px;
     margin: auto;
     padding: 10px;
+
+    @media screen and (min-width:480px) {
+    }
+    
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1170px;
+        margin: auto;
+        padding: 10px;
+    }
 }
 
 .foot-aut {
+    text-align: center;
     list-style-type: none;
     font-style: normal;
 
@@ -31,22 +44,48 @@
 
 .foot-logo {
     margin: 30px 0;
+    text-align: center;
+
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
+
+    @media screen and (min-width:480px) {}
+    
+    @media screen and (min-width:768px) {}
+}
+
+.foot-item  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width:480px) {}
+    
+    @media screen and (min-width:768px) {}
 }
 
 .foot-item a {
     display: inline-flex;
+    text-align: center;
     padding: 5px;
     margin: 2px;
+
+    @media screen and (min-width:480px) {}
+    
+    @media screen and (min-width:768px) {}
 }
 
 .maps {
+    text-align: center;
     color: $white-color;
     font-style: normal;
+
+    @media screen and (min-width:480px) {}
+    
+    @media screen and (min-width:768px) {}
 }
 
 .maps:hover {
@@ -54,6 +93,7 @@
 }
 
 .footer-p {
+    text-align: center;
     padding: 10px 35px;
     font-family: 'Roboto';
     font-style: normal;
@@ -63,6 +103,12 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $white-color;
+
+    @media screen and (min-width:480px) {}
+    
+    @media screen and (min-width:768px) {
+        padding: 10px 35px;
+    }
 }
 
 .footer-social {
@@ -74,6 +120,7 @@
 
 p {
     margin: 10px;
+    text-align: center;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -92,15 +139,24 @@ form {
     justify-content: center;
     padding: 15px 10px;
     margin: 5px 0;
+
+    @media screen and (min-width:480px) {}
+    
+    @media screen and (min-width:768px) {}
 }
 
 input {
     display: block;
-    width: 350px;
+    width: 250px;
     padding: 10px 10px;
     margin-right: 10px;
 
     background-color: $backgraund-color;
+    @media screen and (min-width:480px) {}
+    
+    @media screen and (min-width:768px) {
+        width: 350px;
+    }
 }
 
 input:hover{
@@ -112,7 +168,7 @@ button {
     align-items: center;
     justify-content: center;
     width: 150px;
-    margin: 5px 0;
+    margin: 15px 0;
     border-radius: 4px;
 
     font-family: 'Roboto';
@@ -127,6 +183,12 @@ button {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
     transition: all 0.7s ease 0s;
+
+    @media screen and (min-width:480px) {}
+    
+    @media screen and (min-width:768px) {
+        width: 150px;
+    }
 }
 
 button:hover {
