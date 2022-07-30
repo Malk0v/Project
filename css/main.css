@@ -409,27 +409,50 @@ body {
 
 /* навигация */
 .nav > ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 30%;
-  height: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: none;
 }
 
-.nav-list {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
+@media screen and (min-width: 480px) {
+  .nav > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    height: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    height: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-list {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
 }
 
 .item::before {
@@ -971,15 +994,32 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 1170px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 480px;
   margin: auto;
   padding: 10px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 1170px;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
 .foot-aut {
+  text-align: center;
   list-style-type: none;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
@@ -995,6 +1035,7 @@ body {
 /* footer logo */
 .foot-logo {
   margin: 30px 0;
+  text-align: center;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -1002,15 +1043,29 @@ body {
   line-height: 31px;
 }
 
+.foot-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .foot-item a {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  text-align: center;
   padding: 5px;
   margin: 2px;
 }
 
 .maps {
+  text-align: center;
   color: #ffffff;
   font-style: normal;
 }
@@ -1020,6 +1075,7 @@ body {
 }
 
 .footer-p {
+  text-align: center;
   padding: 10px 35px;
   font-family: 'Roboto';
   font-style: normal;
@@ -1029,6 +1085,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-p {
+    padding: 10px 35px;
+  }
 }
 
 .footer-social {
@@ -1041,6 +1103,7 @@ body {
 
 .wrapper-send p {
   margin: 10px;
+  text-align: center;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -1066,10 +1129,16 @@ body {
 
 .wrapper-send input {
   display: block;
-  width: 350px;
+  width: 250px;
   padding: 10px 10px;
   margin-right: 10px;
   background-color: #2F303A;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper-send input {
+    width: 350px;
+  }
 }
 
 .wrapper-send input:hover {
@@ -1087,7 +1156,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 150px;
-  margin: 5px 0;
+  margin: 15px 0;
   border-radius: 4px;
   font-family: 'Roboto';
   font-style: normal;
@@ -1101,6 +1170,12 @@ body {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   -webkit-transition: all 0.7s ease 0s;
   transition: all 0.7s ease 0s;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper-send button {
+    width: 150px;
+  }
 }
 
 .wrapper-send button:hover {
