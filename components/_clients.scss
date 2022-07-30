@@ -10,20 +10,42 @@ h2 {
 
 
 .names {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0 5%;
-    margin: 0 10px;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+
+    li{
+
+        width: calc(100% / 2 - 25px);
+
+        @media screen and (min-width:480px) {
+            width: calc(100% / 3 - 25px);
+        }
+        
+        @media screen and (min-width:768px) {
+            width: calc(100% / 6 - 25px);
+           
+        }
+
+    }
 }
 
 .clients-svg {
-    margin: 10px;
-    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+    
     height: 92px;
     outline: 2px solid $milk-color;
     fill: #afb1b8;
     border-radius: 5px;
+
+    
 }
 
 .clients-svg:hover {
@@ -31,3 +53,9 @@ h2 {
     fill: $akcent-color;
     outline: 2px solid $akcent-color;
 }
+
+
+
+@media screen and (min-width:480px) {}
+
+@media screen and (min-width:768px) {}
