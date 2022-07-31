@@ -367,16 +367,38 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1200px;
+  width: 1170px;
   margin: 0 auto;
   height: 80px;
+}
+
+@media screen and (min-width: 480px) {
+  .conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 768px;
+    margin: 0 auto;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    height: 80px;
+  }
 }
 
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -475,14 +497,19 @@ body {
   transition: all 0.2s ease 0s;
 }
 
-.connection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: auto;
+@media screen and (min-width: 480px) {
+  .connection {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .connection {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: auto;
+  }
 }
 
 .connection-link :hover {
