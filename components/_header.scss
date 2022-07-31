@@ -12,15 +12,30 @@
 
 .conteiner {
     display: flex;
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
     height: 80px;
+
+    @media screen and (min-width:480px) {
+        display: flex;
+        width: 768px;
+        margin: 0 auto;
+        height: 80px;
+    }
+    
+    @media screen and (min-width:768px) {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    height: 80px;}
 }
 
 .nav {
     display: flex;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
+
+    
 }
 
 /* Лого */
@@ -111,9 +126,19 @@
 }
 
 .connection {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
+    // display: flex;
+    // align-items: center;
+    // margin-left: auto;
+
+    @media screen and (min-width:480px) {
+        margin-left: auto;
+    }
+    
+    @media screen and (min-width:768px) {
+        // display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
 }
 
 .connection-link :hover {
