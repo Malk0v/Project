@@ -18,7 +18,6 @@
     
     @media screen and (min-width:768px) {
         display: flex;
-        
         justify-content: space-between;
         max-width: 1170px;
         margin: auto;
@@ -183,13 +182,15 @@ form {
 
 input {
     display: block;
-    width: 250px;
+    width: 400px;
     padding: 10px 10px;
     margin-right: 10px;
 
     background-color: $backgraund-color;
     
-    @media screen and (min-width:480px) {}
+    @media screen and (min-width:480px) {
+        width: 350px;
+    }
     
     @media screen and (min-width:768px) {
         width: 350px;
