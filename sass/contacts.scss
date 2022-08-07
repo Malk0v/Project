@@ -1,4 +1,7 @@
-@import '../components/all';
+@import '../utils/variables';
 @import '../base/normalize';
+@import '../components/_visual-hidden';
 
-@import '../components/test';
+@import '../components/header';
+@import '../components/boorger';
+
