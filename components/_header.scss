@@ -12,20 +12,20 @@
 
 .conteiner {
     display: flex;
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     height: 80px;
 
     @media screen and (min-width:480px) {
         display: flex;
-        width: 768px;
+        max-width: 768px;
         margin: 0 auto;
         height: 80px;
     }
     
     @media screen and (min-width:768px) {
     display: flex;
-    width: 1170px;
+    max-width: 1170px;
     margin: 0 auto;
     height: 80px;}
 }
@@ -65,13 +65,12 @@
 
 /* навигация */
 
-.nav>ul {
+.navigation {
     display: none;
     
 
     @media screen and (min-width:480px) {
         display: flex;
-        width: 30%;
         height: 100%;
         justify-content: space-around;
         align-items: center;
@@ -79,7 +78,6 @@
     
     @media screen and (min-width:768px) {
         display: flex;
-        width: 30%;
         height: 100%;
         justify-content: space-around;
         align-items: center;
@@ -87,17 +85,19 @@
 }
 
 .nav-list {
-    // position: relative;
-    // display: flex;
-    // align-items: center;
-    // height: 100%;
 
     @media screen and (min-width:480px) {
+        position: relative;
+        display: flex;
+        margin: 3%;
+        align-items: center;
+        height: 100%;
     }
     
     @media screen and (min-width:768px) {
         position: relative;
         display: flex;
+        margin: 10%;
         align-items: center;
         height: 100%;
     }
@@ -131,11 +131,14 @@
     // margin-left: auto;
 
     @media screen and (min-width:480px) {
+        display: flex;
+        flex-direction: column;
         margin-left: auto;
     }
     
     @media screen and (min-width:768px) {
-        // display: flex;
+        display: flex;
+        flex-direction: row;
         align-items: center;
         margin-left: auto;
     }
@@ -148,9 +151,27 @@
 }
 
 .connection a {
-    padding: 5px;
+    display: none;
 
-    color: $grey-color;
+    @media screen and (min-width:480px) {
+        display: block;
+        padding: 2%;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+       
+        letter-spacing: 0.02em;
+        padding: 5px;
+        
+        color: $grey-color;
+    }
+    
+    @media screen and (min-width:768px) {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        color: $grey-color;    
+    }
 }
 
 .connection-svg {
