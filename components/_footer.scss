@@ -12,15 +12,29 @@
     padding: 10px;
 
     @media screen and (min-width:480px) {
+        justify-content: start;
+        max-width: 750px;
     }
     
     @media screen and (min-width:768px) {
         display: flex;
-        flex-wrap: wrap;
+        
         justify-content: space-between;
         max-width: 1170px;
         margin: auto;
         padding: 10px;
+    }
+}
+
+.address{
+
+    @media screen and (min-width:480px) {
+        margin-left: 10%;
+        width: 35%;
+    }
+    
+    @media screen and (min-width:768px) {
+
     }
 }
 
@@ -52,9 +66,13 @@
     font-size: 26px;
     line-height: 31px;
 
-    @media screen and (min-width:480px) {}
+    @media screen and (min-width:480px) {
+        text-align: start;
+    }
     
-    @media screen and (min-width:768px) {}
+    @media screen and (min-width:768px) {
+       text-align: start;
+    }
 }
 
 .foot-item  {
@@ -62,9 +80,13 @@
     justify-content: center;
     align-items: center;
 
-    @media screen and (min-width:480px) {}
+    @media screen and (min-width:480px) {
+        justify-content: start;
+    }
     
-    @media screen and (min-width:768px) {}
+    @media screen and (min-width:768px) {
+        justify-content: start;
+    }
 }
 
 .foot-item a {
@@ -113,6 +135,15 @@
 
 .footer-social {
     margin: auto;
+
+    @media screen and (min-width:480px) {
+        // margin-right: 10%;
+        width: 35%;
+    }
+    
+    @media screen and (min-width:768px) {
+        width: 350px;
+    }
 }
 
 .wrapper-send {
@@ -143,6 +174,11 @@ form {
     @media screen and (min-width:480px) {}
     
     @media screen and (min-width:768px) {}
+    
+
+    label{
+        margin-top: 12px;
+    }
 }
 
 input {
@@ -152,6 +188,7 @@ input {
     margin-right: 10px;
 
     background-color: $backgraund-color;
+    
     @media screen and (min-width:480px) {}
     
     @media screen and (min-width:768px) {
