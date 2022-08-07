@@ -1,0 +1,61 @@
+.main{
+    max-width: 480px;
+    max-height: 796px;
+    margin: 100px 10px;
+    list-style: none;
+}
+
+.boorger-backdrop{
+
+}
+
+.boorger-is-hidden{
+
+}
+
+.boorger-modal{
+
+}
+
+.boorger-close{
+
+}
+
+.boorger-nav{
+margin: 32px 0;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+
+.boorger-connection{
+margin-top: 80%;
+margin-bottom: 60px;
+}
+
+.boorger-social{
+    display: flex;
+    flex-wrap: wrap;
+
+    color: $grey-color;
+
+    li{
+        margin: 5px;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+    }
+    
+}
+
+.bo{
+    font-size: 34px;
+    line-height: 40px;
+    color: $akcent-color;
+}
