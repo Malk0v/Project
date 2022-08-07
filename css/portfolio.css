@@ -918,10 +918,16 @@ button:focus {
 
 .wrapper-send input {
   display: block;
-  width: 250px;
+  width: 400px;
   padding: 10px 10px;
   margin-right: 10px;
   background-color: #2F303A;
+}
+
+@media screen and (min-width: 480px) {
+  .wrapper-send input {
+    width: 350px;
+  }
 }
 
 @media screen and (min-width: 768px) {
