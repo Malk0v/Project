@@ -1407,9 +1407,10 @@ body {
 }
 
 .modalBTN {
-  width: 150px;
+  max-width: 150px;
   margin: 15px auto;
-  border-radius: 4px;
+  padding: 5px 15px;
+  border-radius: 5px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -1426,7 +1427,7 @@ body {
 
 @media screen and (min-width: 480px) {
   .modalBTN {
-    width: 200px;
+    max-width: 200px;
   }
 }
 
@@ -1434,6 +1435,10 @@ body {
   .modalBTN {
     width: 250px;
   }
+}
+
+.modalBTN a {
+  color: #fff;
 }
 
 .close {
