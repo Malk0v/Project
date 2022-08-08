@@ -606,6 +606,10 @@ body {
   color: #212121;
 }
 
+.boorger-nav a:hover {
+  color: #2196F3;
+}
+
 .boorger-connection {
   margin-top: 50%;
   margin-bottom: 60px;
