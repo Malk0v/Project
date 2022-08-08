@@ -44,9 +44,10 @@
 
 .modalBTN {
         
-        width: 150px;
+        max-width: 150px;
         margin: 15px auto;
-        border-radius: 4px;
+        padding: 5px 15px;
+        border-radius: 5px;
     
         font-family: 'Roboto';
         font-style: normal;
@@ -62,11 +63,16 @@
         transition: all 0.7s ease 0s;
     
         @media screen and (min-width:480px) {
-            width: 200px;
+            max-width: 200px;
+            
         }
     
         @media screen and (min-width:768px) {
             width: 250px;
+        }
+
+        a{
+            color: #fff;
         }
     }
 
