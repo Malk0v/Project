@@ -590,6 +590,13 @@ body {
 
 .boorger-nav {
   margin: 32px 0;
+}
+
+.boorger-nav li {
+  margin-bottom: 32px;
+}
+
+.boorger-nav a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -600,7 +607,7 @@ body {
 }
 
 .boorger-connection {
-  margin-top: 80%;
+  margin-top: 50%;
   margin-bottom: 60px;
 }
 
@@ -615,14 +622,38 @@ body {
 
 .boorger-social li {
   margin: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 18px;
   line-height: 22px;
   letter-spacing: 0.02em;
 }
 
+.boorger-social a {
+  color: #2196F3;
+}
+
+.boorger-social span {
+  color: #757575;
+  font-weight: lighter;
+}
+
 .bo {
+  margin-bottom: 32px;
+}
+
+.bo a {
   font-size: 34px;
   line-height: 40px;
   color: #2196F3;
+}
+
+.boo a {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 /*# sourceMappingURL=contacts.css.map */
