@@ -488,6 +488,7 @@ body {
 }
 
 .boorger-nav {
+  padding: 0 15px;
   margin: 32px 0;
 }
 
@@ -524,6 +525,7 @@ body {
 .boorger-connection {
   margin-top: 50%;
   margin-bottom: 60px;
+  padding: 0 15px;
 }
 
 @media screen and (min-width: 480px) {
@@ -539,6 +541,7 @@ body {
 }
 
 .boorger-social {
+  padding-left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
