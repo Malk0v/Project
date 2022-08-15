@@ -31,11 +31,10 @@
 }
 
 .nav {
+    position: relative;
     display: flex;
     width: 100%;
     margin: 0 auto;
-
-    
 }
 
 /* Лого */
@@ -64,6 +63,189 @@
 }
 
 /* навигация */
+
+
+
+
+.menu-button{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    @media screen and (min-width:480px) {
+        display: none;
+    }
+    
+    @media screen and (min-width:768px) {
+        display: none;
+    } 
+}
+
+.icon-menu{
+width: 30px;
+height: 30px;
+}
+
+.icon-cross{
+width: 30px;
+height: 30px;
+}
+
+.menu-button .icon-cross{
+    display: none;
+} 
+
+.menu-button.is-open .icon-cross {
+    display: block;
+}
+
+.menu-button.is-open .icon-menu{
+    display: none;
+}
+
+
+.burger{
+    position: absolute;
+    display: none;
+    top: 30px;
+    width: 100%;
+    background-color: #fff;
+
+    &.is-open{
+        display: block;
+    }
+}
+
+.boorger-nav {
+    margin: 32px 0;
+
+    li {
+        margin-bottom: 32px;
+    }
+
+    a {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        letter-spacing: 0.02em;
+
+        color: #212121;
+    }
+
+    & a:hover {
+        color: $akcent-color;
+    }
+
+    @media screen and (min-width:480px) {
+        display: none;
+    }
+    
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+}
+
+.boorger-connection {
+    margin-top: 50%;
+    margin-bottom: 60px;
+
+    @media screen and (min-width:480px) {
+        display: none;
+    }
+    
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+
+}
+
+.boorger-social {
+    display: flex;
+    flex-wrap: wrap;
+
+    color: $grey-color;
+
+    li {
+        margin: 5px;
+
+        align-items: center;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.02em;
+
+    }
+
+    a {
+        color: $akcent-color;
+    }
+
+    span {
+        color: $grey-color;
+
+        font-weight: lighter;
+
+    }
+
+    @media screen and (min-width:480px) {
+        display: none;
+    }
+    
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+
+}
+
+.bo {
+    margin-bottom: 32px;
+
+    a {
+
+        font-size: 34px;
+        line-height: 40px;
+        color: $akcent-color;
+    }
+
+    @media screen and (min-width:480px) {
+        display: none;
+    }
+    
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+}
+
+.boo a {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+
+    @media screen and (min-width:480px) {
+        display: none;
+    }
+    
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navigation {
     display: none;
