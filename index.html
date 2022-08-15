@@ -23,6 +23,45 @@
         <div class="conteiner">
             <nav class="nav">
                 <a class="logo" href="./index.html"><span class="word-web">Web</span>Studio</a>
+
+                <button type="button" class="menu-button is-open" aria-expanded="false" data-menu-button>
+                    <svg 
+                    widht="40"
+                    height="40"
+                    aria-label="переключатель мобильного меню">
+                    <use class="icon-menu" href="../images/symbol-defs.svg#icon-list"></use>
+                    <use class="icon-cross" href="../images/symbol-defs.svg#icon-close"></use>
+                    </svg>
+                </button>
+
+                <div class="burger" data-menu>
+                
+                    <ul class="boorger-nav">
+                        <li><a href="">Студия</a></li>
+                        <li><a href="">Портфолио</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                
+                    <ul class="boorger-connection">
+                
+                        <li class="bo"><a href="tel:+380961111111">
+                                +38 096 111 11 11</a></li>
+                
+                        <li class="boo"><a href="mailto:info@devstudio.com">
+                                info@devstudio.com</a></li>
+                
+                    </ul>
+                
+                    <ul class="boorger-social">
+                        <li><a href="">Instagram <span>|</span></a></li>
+                        <li><a href="">Twitter <span>|</span></a></li>
+                        <li><a href="">Facebook <span>|</span></a></li>
+                        <li><a href="">LinkedIn</a></li>
+                    </ul>
+
+                </div>
+            
+            
                 <ul class="navigation">
                     <li class="nav-list">
                         <div class="item"></div>
@@ -513,6 +552,22 @@
                     );
                 });
         })();
+    </script>
+
+    <script>
+        (() => {
+                const menuBtnRef = document.querySelector("[data-menu-button]");
+                const mobileMenuRef = document.querySelector("[data-menu]");
+                menuBtnRef.addEventListener("click", () => {
+                    const expanded =
+                        menuBtnRef.getAttribute("aria-expanded") === "true" || false;
+
+                    menuBtnRef.classList.toggle("is-open");
+                    menuBtnRef.setAttribute("aria-expanded", !expanded);
+
+                    mobileMenuRef.classList.toggle("is-open");
+                });
+            })();
     </script>
 </body>
 
