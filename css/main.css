@@ -460,9 +460,17 @@ body {
   height: 20px;
 }
 
+.icon-menu :hover {
+  fill: #2196F3;
+}
+
 .icon-cross {
   width: 20px;
   height: 20px;
+}
+
+.icon-cross :hover {
+  fill: #2196F3;
 }
 
 .menu-button .icon-cross {
@@ -1468,8 +1476,7 @@ body {
 
 .wrapper-send input {
   display: block;
-  min-width: 200px;
-  max-width: 400px;
+  min-width: 250px;
   padding: 10px 10px;
   margin-right: 10px;
   background-color: #2F303A;
