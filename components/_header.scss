@@ -87,12 +87,18 @@
 .icon-menu{
 width: 20px;
 height: 20px;
-}
+
+& :hover {
+    fill: $akcent-color;
+}}
 
 .icon-cross{
 width: 20px;
 height: 20px;
-}
+
+& :hover {
+    fill: $akcent-color;
+}}
 
 .menu-button .icon-cross{
     display: none;
