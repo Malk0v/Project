@@ -118,6 +118,7 @@ height: 30px;
 }
 
 .boorger-nav {
+    padding: 0 15px;
     margin: 32px 0;
 
     li {
@@ -151,6 +152,7 @@ height: 30px;
 .boorger-connection {
     margin-top: 50%;
     margin-bottom: 60px;
+    padding: 0 15px;
 
     @media screen and (min-width:480px) {
         display: none;
@@ -163,6 +165,7 @@ height: 30px;
 }
 
 .boorger-social {
+    padding-left: 15px;
     display: flex;
     flex-wrap: wrap;
 
