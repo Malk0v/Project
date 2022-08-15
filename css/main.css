@@ -435,8 +435,10 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin: 15px;
+  margin: 15px 15px 0 auto;
   padding: 0;
+  height: 40px;
+  width: 40px;
   border: none;
   background-color: transparent;
 }
