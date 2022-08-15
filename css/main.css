@@ -1468,7 +1468,8 @@ body {
 
 .wrapper-send input {
   display: block;
-  width: 400px;
+  min-width: 200px;
+  max-width: 400px;
   padding: 10px 10px;
   margin-right: 10px;
   background-color: #2F303A;
