@@ -491,6 +491,7 @@ body {
   top: 60px;
   width: 100%;
   background-color: #fff;
+  overflow-y: scroll;
 }
 
 .burger.is-open {
