@@ -15,14 +15,17 @@
      rgba(160, 115, 214, 0.433),
     rgba(8, 1, 12, 0.341)
     ),
-    url(../../images/hero.jpg);
+    url(../../images/hero_mobile.jpg);
     background-color: #000000;
 
     background-size: cover;
     background-position: center;
     
 
-    @media screen and (min-width:480px) {
+    @media screen and (min-width:480px),
+        screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
 
         max-width: 768px;
         height: 400px;
@@ -31,7 +34,7 @@
         background-image: linear-gradient(to right,
             rgba(160, 115, 214, 0.433),
             rgba(8, 1, 12, 0.341)),
-        url(../../images/hero.jpg);
+        url(../../images/hero_tablet.jpg);
         background-color: #000000;
         
         background-size: cover;
@@ -46,7 +49,10 @@
         text-transform: uppercase;
     }
     
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:769px),
+    screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) { {
         max-width: 1600px;
         height: 600px;
         margin: auto;
